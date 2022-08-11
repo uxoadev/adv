@@ -1,15 +1,22 @@
 import React from "react";
 import "./styles.css"
 
-function Caixa(props){
-    return(
-        
+function Caixa(props) {
+    return (
+
         <div className="texto">
-            <img src="" alt="" />
-            <h1>{props.titulo}</h1>
-            <p>{props.text}</p>
+            <img src={props.img} alt="" />
+
+
+            <div><h1>{props.titulo}</h1>
+                <h2>{props.sub}</h2>
+                <p>{props.text}</p>
+                <h2>{props.sub2}</h2>
+                <p>{props.text2}</p>
             </div>
-        
-        
+
+        </div>
+
+
     )
-}export default Caixa
+} export default Caixa

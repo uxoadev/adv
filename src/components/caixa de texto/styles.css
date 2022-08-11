@@ -1,20 +1,28 @@
 .texto{
-    text-align: justify;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-right: 200px;
-    
-    
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   align-content: center;
 }
 
 .texto p{
     text-align: justify;
-    width: 450px;
+    max-width:  450px;
     height: 100%;
     
 }
 .texto h1{
+    text-align: right;
     font-size: 4em;
+    max-width: 400px;
 }
-
+.texto h2{
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.texto img{
+    width: 400px;
+    
+}
