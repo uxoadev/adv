@@ -2,8 +2,7 @@
     display: flex;
     background-color: #eaeaea;
     justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 20px;
+   
     font-size: 1.3em;
     font-weight: bold;
     align-items: center;
@@ -18,5 +17,8 @@
 .navbar a{
     text-decoration: none;
     color: black;
+}
+.navbar a:hover{
+    color: rgb(117, 116, 116);
 }
 

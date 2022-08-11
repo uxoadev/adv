@@ -1,0 +1,19 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: auto;
+    align-items: center;
+    line-height: 90px;
+    background-color: #f7f7f7;
+   
+}
+
+.home h1{
+    font-size: 4em;
+}
+
+.home img{
+    height: 350px;
+    width: 380px;
+}
