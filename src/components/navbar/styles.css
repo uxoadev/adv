@@ -1,9 +1,13 @@
 .navbar{
     display: flex;
-    background-color: brown;
+    background-color: #eaeaea;
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    align-items: center;
+    
 }
 
 .navlink{
@@ -11,7 +15,8 @@
 
 }
 
-.logo{
+.navbar a{
     text-decoration: none;
-    font-size: 1.5rem;
+    color: black;
 }
+

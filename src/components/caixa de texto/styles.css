@@ -1,3 +1,15 @@
 .texto{
     text-align: justify;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.texto p{
+    text-align: justify;
+    width: 450px;
+    height: 100%;
+}
+.texto h1{
+    font-size: 5em;
 }
