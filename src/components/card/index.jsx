@@ -3,10 +3,11 @@ import "./styles.css"
 
 function Card(props){
     return(
-        <div className="card">
-            <h1>HILQUIAS JORDÃO</h1>
+        <div className="backcin">
+             <div className="card">
+            <h1>SOBRE O ADVOGADO</h1>
             <ul>
-                <li><h2>SOBRE O ADVOGADO</h2></li>
+                <li><h2>HILQUIAS JORDÃO</h2></li>
                 <p>Texto sobre o cliente bla blabalbalb aba blasblabs asbdalsladablabalbla blabalbalb aba blasblabs asbdalsladablababla b aba blasblabs asbdalsladablababl b aba blasblabs asbdalsladablababl</p>
                 <li><h2>NOSSA VISÃO</h2></li>
                 <p>Texto sobre o cliente bla blabalbalb aba blasblabs asbdalsladablabalbla blabalbalb aba blasblabs asbdalsladablababla b aba blasblabs asbdalsladablababl b aba blasblabs asbdalsladablababl</p>
@@ -14,6 +15,9 @@ function Card(props){
                 <p>Texto sobre o cliente bla blabalbalb aba blasblabs asbdalsladablabalbla blabalbalb aba blasblabs asbdalsladablababla b aba blasblabs asbdalsladablababl b aba blasblabs asbdalsladablababl</p>
             </ul>
     </div>
+
+        </div>
+       
 
     )
 

@@ -1,17 +1,25 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    align-content: center;
     background-color: #2b2c32;
     text-decoration: none;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 100px;
-    
+    color: #f7f7f7;
     height: 200px;
     bottom: 0;
+    align-items: center;
+    width: 1500px;
+    margin: 0 auto;
    
 }
 
+.icons a{
+    padding: 10px;
+
+}
+
+.backfo{
+    background-color: #2b2c32;
+    
+}
 
 

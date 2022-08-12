@@ -1,14 +1,14 @@
 import React from "react";
 import "./styles.css"
-import {FaTwitter, FaFacebook, FaInstagram} from "react-icons/fa"
+import logo from "./logo.png"
+import {FaTwitter, FaFacebook, FaInstagram, FaWhatsapp} from "react-icons/fa"
 
 
 function Footer() {
     return (
-        <footer className="footer">
-            <ul>
-                <li><h1>LOGO</h1></li>
-            </ul>
+        <div className="backfo">
+<footer className="footer">
+            <ul><img src={logo} alt="" width="150" height="150"/></ul>
 
             
             <ul>
@@ -29,11 +29,15 @@ function Footer() {
                     <FaTwitter size="40" color="#fff" /></a>
                     <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
                     <FaFacebook size="40" color="#fff" /></a>
+                    <a href="http://wa.me/5586988663532" target="_blank" rel="noopener noreferrer">
+                    <FaWhatsapp size="40" color="#fff" /></a>
             </div>
             
             
         </footer >
 
+        </div>
+        
 
     )
 } export default Footer

@@ -2,10 +2,13 @@
     display: flex;
     background-color: #eaeaea;
     justify-content: space-between;
+    width: 1500px;
+    margin: 0 auto;
    
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: bold;
     align-items: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
@@ -19,6 +22,10 @@
     color: black;
 }
 .navbar a:hover{
-    color: rgb(117, 116, 116);
+    color: #757474;
+}
+
+.backnav{
+    background-color: #eaeaea;
 }
 

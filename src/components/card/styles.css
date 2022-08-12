@@ -1,12 +1,15 @@
 .card {
 
     height: 500px;
+    width: 1500px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     text-align: left;
     padding: auto;
     align-items: center;
     background-color: #1b1a1a;
+    color: #f7f7f7;
 }
 
 .card ul {
@@ -29,4 +32,12 @@
 .card h2{
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.card h1{
+    max-width: 150px;
+}
+
+.backcin{
+    background-color: #1b1a1a;
 }

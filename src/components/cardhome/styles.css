@@ -3,18 +3,44 @@
         display: flex;
         justify-content: space-between;
         text-align: left;
-        padding: auto;
         align-items: center;
         line-height: 90px;
         background-color: #f7f7f7;
+        width: 1500px;
+        margin: 0 auto;
        
     }
+    .cardhome h1{
+        font-size: 4em;
+        color: #1a3034;
+    }
+    .cardhome h2{
+        color: rgb(59, 41, 41);
+        font-size: 1.7em;
+    }
     
+    .cardhome h4{
+        font-size: 1.2em;
+    }
     .home h1{
         font-size: 4em;
     }
     
-    .home img{
-        height: 350px;
-        width: 380px;
+    .icons1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .icons1 a{
+        padding: 20px;
+        color: #757474;
+    }
+
+    .icons1 a:hover{
+        color: black;
+    }
+
+    .back1{
+        background-color: #f7f7f7;
     }
