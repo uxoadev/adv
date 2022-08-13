@@ -1,0 +1,43 @@
+.postagens{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    width: 1500px;
+    margin: 0 auto;
+    height: 500px;
+    align-items: center;
+   
+    
+}
+.postagens a{
+    text-decoration: none;
+    color: black;
+}
+.postagens a:hover{
+    color: #757474;
+}
+
+.postagens img{
+    height: 300px;
+    width: 300px;
+    
+}
+
+.postagens p{
+    text-align: justify;
+    max-width:  400px;
+    height: 100%;
+}
+.backP{
+    background-color: #f7f7f7;
+}
+.titul{
+    
+    width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3.5em;
+   
+   
+
+}

@@ -1,10 +1,11 @@
 import React from "react"
+import AllPosts from "../../components/AllPosts/AllPosts"
 
 function Artigos(){
     return(
         <div>
+            <AllPosts/>
             
-            <h1>PAGINA ARTIGOS</h1>
         </div>
         
     )

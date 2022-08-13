@@ -4,6 +4,7 @@ import Sobre from "../pages/sobre"
 import Artigos from "../pages/artigos"
 import Area from "../pages/areas"
 import Contatos from "../pages/contatos"
+import SinglePost from "../components/SinglePost/SinglePost"
 function Rotas(){
     return(
         <BrowserRouter>
@@ -13,6 +14,7 @@ function Rotas(){
         <Route path="/areas" element={<Area/>}/>
         <Route path="/artigos" element={<Artigos/>}/>
         <Route path="/contatos" element={<Contatos/>}/>
+        <Route path="/artigos/:slug" element={<SinglePost/>} />
         </Routes>
         
         </BrowserRouter>
